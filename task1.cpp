@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-    double sum = 0;
     double height[18], weight[18];
     double x;
     ifstream inFile1,inFile2;
