@@ -4,6 +4,9 @@
 
 using namespace std;   
 
+const double G = 6.67408e-11;      // Gravitational constant
+const double SUN_MASS = 1.989e30;  // Mass of the sun
+
 class Body {          // The class
   public:             // Access specifier
     string Name;        
