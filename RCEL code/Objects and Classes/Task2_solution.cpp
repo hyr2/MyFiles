@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std; 
 
-// <Your code goes here>
 class car {
   public:
     unsigned int weight;
@@ -9,18 +8,9 @@ class car {
     string body;
     double fuel;
   
-  /* Optional Constructor
-  car(unsigned int Weight, string Color, string Body, double Fuel){
-      weight = Weight;
-      color = Color;
-      body = Body;
-      fuel = Fuel;
-  }
-  */
-  
-  void refuel(double add_fuel){
-    fuel = fuel + add_fuel;
-  }
+    void refuel(double add_fuel){
+      fuel = fuel + add_fuel;
+    }
 };
 
 int main(){
